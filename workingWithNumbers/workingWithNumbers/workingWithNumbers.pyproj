@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7268e0ba-312f-44a0-bfcf-833ab107a7d9</ProjectGuid>
+    <ProjectGuid>e7d919f9-38cb-4463-9549-c70feadf4454</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>displayingText.py</StartupFile>
+    <StartupFile>AskUserForInput.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>displayingText</Name>
-    <RootNamespace>displayingText</RootNamespace>
+    <Name>workingWithNumbers</Name>
+    <RootNamespace>workingWithNumbers</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="displayingText.py" />
-    <Compile Include="challenge1.py">
+    <Compile Include="AskUserForInput.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="challenge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="workingWithNumbers.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
