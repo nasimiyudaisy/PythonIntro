@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e7d919f9-38cb-4463-9549-c70feadf4454</ProjectGuid>
+    <ProjectGuid>9c2c6abe-bcee-4b94-9a4a-8a0f3e9c14bd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>challenge.py</StartupFile>
+    <StartupFile>whileLoops.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>workingWithNumbers</Name>
-    <RootNamespace>workingWithNumbers</RootNamespace>
+    <Name>whileLoops</Name>
+    <RootNamespace>whileLoops</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,13 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AskUserForInput.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="challenge.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="workingWithNumbers.py" />
+    <Compile Include="whileLoops.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
